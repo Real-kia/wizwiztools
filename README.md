@@ -1,2 +1,20 @@
-# wizwiztools
-some tools to use with wiziwiz telegrambot on server
+<h1>wizwiz tools</h1>
+
+<p>برای نصب از اسکریپت زیر استفاده کنید</p>
+
+<h2>Installation</h2>
+
+<p>کامند زیر را ران کنید سپس یک عدد بین ۱ تا ۲۳ وارد کنید (دقت کنید که ۲۴ نمیشه‌)</p>
+
+<pre><code>bash <(curl -s https://raw.githubusercontent.com/Real-kia/wizwiztools/main/autobackup.sh)</code></pre>
+
+<h2>نکات استفاده</h2>
+
+<p>اگر میخواین تایم را عوض کنید یا کلا بک آپ را متوقف کنید دستور زیر را وارد کنید</p>
+
+<pre><code>crontab -e</code></pre>
+
+<p>از اینجا میتونین تایم را عوض کنید یا کلا خط مربوط به بک اپ پاک کنید و دیگه براتون بک آپ ارسال نمیشه یا مثلا اگر اشتباها چند بار اسکریپت ران کردین و میبینین که چند خط مربوط به بک آپ هست میتونین از انیجا پاکش کنید </p>
+
+<p>برای تنظیم ساعت میتونین از <a href="https://crontab.guru/" target="_blank">این لینک</a> کمک بگیرید</p>
+
